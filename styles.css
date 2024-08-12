@@ -1,0 +1,81 @@
+/* 全局样式 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* 背景图样式 */
+body {
+    background-image: url('background.jpg'); /* 替换为你的背景图路径 */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff; /* 文字颜色，以确保在背景上可见 */
+}
+
+/* 导航栏样式 */
+.navbar {
+    background: rgba(0, 0, 0, 0.7); /* 半透明黑色背景 */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* 主内容区域样式 */
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+    background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* 页脚样式 */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.7); /* 半透明黑色背景 */
+    color: white;
+}
+
+/* 网站地图样式 */
+.site-map {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+/* 链接样式 */
+a {
+    color: #0099cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
