@@ -6,17 +6,22 @@
     <title>Wang's Blog</title>
     <style>
         body {
-            font-family: 'Noto Serif', serif; /* 使用一种具有传统风格的字体 */
+            font-family: 'Noto Serif', serif; /* 使用具有传统风格的字体 */
             margin: 0;
             padding: 0;
             background-image: url('https://example.com/ink-wash-background.jpg'); /* 水墨风背景图片链接 */
             background-size: cover;
             background-attachment: fixed;
             color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding-top: 50px; /* 整体下移 */
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            width: 100%;
             padding: 20px;
             background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
             border-radius: 10px;
