@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的个人网站</title>
-    <link rel="stylesheet" href="styles.css"> <!-- 链接自定义的CSS文件 -->
-    <!-- 这里可以添加其他资源链接，如Bootstrap、FontAwesome等 -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <!-- 导航栏 -->
-    <nav>
+    <nav class="navbar">
         <ul>
             <li><a href="#about">关于我</a></li>
             <li><a href="#projects">项目</a></li>
@@ -20,37 +19,17 @@
     </nav>
 
     <!-- 主内容区域 -->
-    <main>
-        <section id="about">
+    <main class="content">
+        <section id="about" class="section">
             <h1>欢迎来到我的个人网站</h1>
             <p>这里是一段简短的自我介绍。你可以谈谈你是谁，你的专业背景，你的兴趣等。</p>
         </section>
 
-        <section id="projects">
-            <h2>我的项目</h2>
-            <p>这个部分可以用来展示你的工作或个人项目。</p>
-            <!-- 项目列表 -->
-            <div>
-                <h3>项目名称</h3>
-                <p>项目的简短描述和链接。</p>
-            </div>
-            <!-- 更多项目 -->
-        </section>
-
-        <section id="blog">
-            <h2>博客</h2>
-            <p>如果你想在网站上发布博客文章，你可以在这里列出一些摘要。</p>
-            <!-- 博客文章列表 -->
-            <div>
-                <h3>文章标题</h3>
-                <p>文章简短摘要。</p>
-            </div>
-            <!-- 更多文章 -->
-        </section>
+        <!-- 其他部分以此类推... -->
     </main>
 
     <!-- 页脚 -->
-    <footer id="contact">
+    <footer id="contact" class="section">
         <h3>联系方式</h3>
         <p>想要与我联系？你可以通过以下方式找到我：</p>
         <ul>
@@ -61,7 +40,7 @@
     </footer>
 
     <!-- 网站地图 -->
-    <nav>
+    <nav class="site-map">
         <ul>
             <li><a href="#about">关于我</a></li>
             <li><a href="#projects">项目</a></li>
@@ -70,7 +49,6 @@
         </ul>
     </nav>
 
-    <!-- 这里可以添加JavaScript文件 -->
     <script src="scripts.js"></script>
 </body>
 </html>
