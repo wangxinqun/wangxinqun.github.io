@@ -6,40 +6,63 @@
     <title>Wang's Blog</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Noto Serif', serif; /* 使用一种具有传统风格的字体 */
+            margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-        }
-        h1 {
+            background-image: url('https://example.com/ink-wash-background.jpg'); /* 水墨风背景图片链接 */
+            background-size: cover;
+            background-attachment: fixed;
             color: #333;
         }
-        h2 {
-            color: #666;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1, h2 {
+            color: #333;
+            font-family: 'Noto Serif', serif;
+            text-align: center;
         }
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            margin: 10px 0;
+            margin: 15px 0;
         }
         a {
             text-decoration: none;
-            color: #007bff;
+            color: #0056b3;
+            font-size: 1.2em;
         }
         a:hover {
             text-decoration: underline;
         }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 0.9em;
+        }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet"> <!-- 引入 Google 字体 -->
 </head>
 <body>
-    <h1>Wang's Blog</h1>
-    <h2>BEV相关论文</h2>
-    <ul>
-        <li><a href="papers/paper1.html">论文 1</a></li>
-        <li><a href="papers/paper2.html">论文 2</a></li>
-        <li><a href="papers/paper3.html">论文 3</a></li>
-    </ul>
+    <div class="container">
+        <h1>Wang's Blog</h1>
+        <h2>BEV相关论文</h2>
+        <ul>
+            <li><a href="papers/paper1.html">论文 1</a></li>
+            <li><a href="papers/paper2.html">论文 2</a></li>
+            <li><a href="papers/paper3.html">论文 3</a></li>
+        </ul>
+        <div class="footer">
+            <p>&copy; 2024 Wang's Blog</p>
+        </div>
+    </div>
 </body>
 </html>
